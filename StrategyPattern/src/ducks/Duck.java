@@ -1,3 +1,5 @@
+package ducks;
+
 import Behavior.IDisplayBehavior;
 import Behavior.IFlyBehavior;
 import Behavior.IQuackBehavior;
@@ -6,10 +8,6 @@ public class Duck {
     IDisplayBehavior displayBehavior;
     IQuackBehavior quackBehavior;
     IFlyBehavior flyBehavior;
-
-    public Duck() {
-    }
-
 
     public void performDisplay(){
         displayBehavior.display();
